@@ -1,5 +1,7 @@
 # Fitness-Tracker-Application
 
+Link: https://namith1003.github.io/Fitness-Tracker-Application/
+
 This application is made focusing on athletes who like to keep track of their progress
 and train using their phones.
 
