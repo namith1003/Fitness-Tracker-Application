@@ -192,9 +192,10 @@ function randomDestination(startPos)
 {
 	
 
-
+	
     //to make the random destination a distance of 60 to 150 m away from where you are.
 	radius=0;
+	startLocBtn.disabled=false;
 	
 	
 	// creates a set of random latitude and longitude values to have a random distance of 60-150 m from users current location
@@ -251,7 +252,7 @@ function beginRun()
 	run1.endLocation=destination;
 	startTime=new Date();
 	run1.timeStarted=startTime.getTime();
-	buttonState.disabled=true;
+	startLocBtn.disabled=true;
 		
     var distanceToPos = Number(Math.sqrt(Math.pow(startPos.lng-startLng,2)+Math.pow(startPos.lat-startLat,2))*150000);    // finds the distance to teh start location with respect to the users current location
 	
