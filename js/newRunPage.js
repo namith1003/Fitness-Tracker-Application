@@ -251,6 +251,7 @@ function beginRun()
 	run1.endLocation=destination;
 	startTime=new Date();
 	run1.timeStarted=startTime.getTime();
+	buttonState.disabled=true;
 		
     var distanceToPos = Number(Math.sqrt(Math.pow(startPos.lng-startLng,2)+Math.pow(startPos.lat-startLat,2))*150000);    // finds the distance to teh start location with respect to the users current location
 	
